@@ -3,7 +3,7 @@ FROM golang:alpine AS builder
 WORKDIR /unifi-notifications
 COPY . .
 RUN apk add --no-cache git
-RUN go build -v ./...
+RUN go build -o unifi-notifications main.go
 
 # ---- App container
 FROM alpine:latest as unifi-notifications
