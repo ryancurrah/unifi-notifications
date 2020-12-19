@@ -9,6 +9,5 @@ require (
 	github.com/lusis/slack-test v0.0.0-20190426140909-c40012f20018 // indirect
 	github.com/nlopes/slack v0.5.0
 	github.com/pkg/errors v0.8.1 // indirect
-	github.com/sirupsen/logrus v1.4.2
-	golang.org/x/sys v0.0.0-20190520201301-c432e742b0af // indirect
+	github.com/sirupsen/logrus v1.7.0
 )
